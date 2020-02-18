@@ -1,5 +1,6 @@
 import React, { useState, useReducer } from 'react';
 import './App.css';
+import Reducer from './section/reducer.js';
 
 
 
@@ -7,6 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
+      <Reducer></Reducer>
 
     </div>
   );

@@ -13,7 +13,7 @@ const reducer = (state, action) => {
   }
 };
 
-const App = () => {
+const Reducer = () => {
   const [user, setUser] = useState("ligiaebf");
   const [name, setName] = useState("Ligia");
   const [email, setEmail] = useState("ligia@correo.com");
